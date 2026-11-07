@@ -1,0 +1,23 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted web app to index, browse and read EPUB and PDF libraries",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "prestart": "node tools/vendor.mjs",
+    "start": "node server/index.js",
+    "vendor": "node tools/vendor.mjs",
+    "samples": "node tools/make-samples.mjs",
+    "smoke": "node tools/smoke-test.mjs"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.80",
+    "adm-zip": "0.5.16",
+    "better-sqlite3": "11.10.0",
+    "express": "4.21.2",
+    "pdfjs-dist": "4.10.38"
+  }
+}

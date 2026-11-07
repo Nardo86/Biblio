@@ -1,0 +1,25 @@
+services:
+  biblioteca:
+    build: .
+    image: biblioteca:1.0.0
+    container_name: biblioteca
+    ports:
+      - "${BIBLIOTECA_PORT:-8080}:3000"
+    environment:
+      # Colon-separated list of folders inside the container.
+      LIBRARY_PATHS: "${LIBRARY_PATHS:-/books}"
+      DATA_DIR: /data
+      # Set to "false" to skip the automatic scan at startup.
+      RESCAN_ON_START: "${RESCAN_ON_START:-true}"
+    volumes:
+      # Read-only library folders. Change the left side to your own path.
+      - "${LIBRARY_PATH:-./sample-library}:/books:ro"
+      # To index a second folder: mount it and add it to LIBRARY_PATHS, e.g.
+      #   LIBRARY_PATHS=/books:/more-books
+      # - "/home/you/altri-libri:/more-books:ro"
+      # Database + generated covers.
+      - biblioteca-data:/data
+    restart: unless-stopped
+
+volumes:
+  biblioteca-data:

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%237a4a1d'/%3E%3Cpath d='M8 8h7v16H8zM17 8h7v16h-7z' fill='%23f3e9d2'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="topbar" id="topbar">
+    <a class="brand" href="#/" title="Torna alla libreria">
+      <span class="brand-mark">B</span>
+      <span class="brand-text">Biblioteca</span>
+    </a>
+
+    <div class="toolbar" id="library-toolbar">
+      <input id="search" class="search" type="search" placeholder="Cerca per titolo o autore…" autocomplete="off" aria-label="Cerca">
+      <select id="filter-format" aria-label="Filtra per formato">
+        <option value="">Tutti i formati</option>
+        <option value="epub">EPUB</option>
+        <option value="pdf">PDF</option>
+      </select>
+      <select id="filter-author" aria-label="Filtra per autore">
+        <option value="">Tutti gli autori</option>
+      </select>
+      <select id="sort" aria-label="Ordina">
+        <option value="title">Titolo (A-Z)</option>
+        <option value="author">Autore (A-Z)</option>
+        <option value="recent">Aggiornati di recente</option>
+        <option value="added">Aggiunti di recente</option>
+      </select>
+      <div class="view-toggle" role="group" aria-label="Vista">
+        <button type="button" data-view="grid" class="active" title="Griglia">▦</button>
+        <button type="button" data-view="list" title="Elenco">☰</button>
+      </div>
+      <button type="button" id="rescan" class="btn">Scansiona</button>
+    </div>
+  </header>
+
+  <main id="view" class="view"></main>
+  <div id="toast" class="toast" hidden></div>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

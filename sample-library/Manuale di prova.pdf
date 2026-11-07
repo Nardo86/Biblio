@@ -1,0 +1,157 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 604 >>
+stream
+BT
+/F1 26 Tf
+60 770 Td
+39 TL
+(Manuale di prova) Tj
+T*
+/F1 13 Tf
+20 TL
+(Documento PDF di esempio per Biblioteca) Tj
+T*
+/F1 12 Tf
+18 TL
+() Tj
+T*
+/F1 12 Tf
+18 TL
+(Questo file serve a verificare la lettura dei PDF nel browser:) Tj
+T*
+/F1 12 Tf
+18 TL
+(estrazione dei metadati, copertina generata dalla prima pagina,) Tj
+T*
+/F1 12 Tf
+18 TL
+(navigazione tra le pagine, zoom e salvataggio della posizione.) Tj
+T*
+/F1 12 Tf
+18 TL
+() Tj
+T*
+/F1 12 Tf
+18 TL
+(Il testo e volutamente semplice e senza caratteri accentati,) Tj
+T*
+/F1 12 Tf
+18 TL
+(cosi da restare leggibile con i font standard del formato PDF.) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 547 >>
+stream
+BT
+/F1 18 Tf
+60 770 Td
+27 TL
+(Capitolo 2 - Come funziona la scansione) Tj
+T*
+/F1 12 Tf
+18 TL
+() Tj
+T*
+/F1 12 Tf
+18 TL
+(La scansione percorre ricorsivamente le cartelle indicate e legge) Tj
+T*
+/F1 12 Tf
+18 TL
+(i metadati di ogni file EPUB e PDF. Se un file e danneggiato,) Tj
+T*
+/F1 12 Tf
+18 TL
+(viene registrato con un errore e la scansione prosegue.) Tj
+T*
+/F1 12 Tf
+18 TL
+() Tj
+T*
+/F1 12 Tf
+18 TL
+(Le copertine vengono salvate accanto al database e servite) Tj
+T*
+/F1 12 Tf
+18 TL
+(dall applicazione, senza dipendere da servizi esterni.) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 342 >>
+stream
+BT
+/F1 18 Tf
+60 770 Td
+27 TL
+(Capitolo 3 - Posizione di lettura) Tj
+T*
+/F1 12 Tf
+18 TL
+() Tj
+T*
+/F1 12 Tf
+18 TL
+(Ogni libro ricorda l ultima pagina letta. Chiudendo il browser) Tj
+T*
+/F1 12 Tf
+18 TL
+(e riaprendo il libro, la posizione viene ripristinata.) Tj
+T*
+/F1 12 Tf
+18 TL
+() Tj
+T*
+/F1 12 Tf
+18 TL
+(Fine del documento di prova.) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Title (Manuale di prova) /Author (Redazione Biblioteca) /Subject (Documento dimostrativo con tre pagine di testo) /CreationDate (D:20230314101500) /Producer (Biblioteca sample generator) >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000356 00000 n 
+0000001011 00000 n 
+0000001137 00000 n 
+0000001735 00000 n 
+0000001861 00000 n 
+0000002254 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R /Info 10 0 R >>
+startxref
+2464
+%%EOF
